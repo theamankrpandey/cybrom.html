@@ -2,9 +2,18 @@
     color: brown;
 }
 .one{
-    border-style:solid groove;
-    color: blue;
+    background-color: rgb(255, 0, 0);
+    border:dotted 2px green;
 }
 .two{
     background-color: rgb(255, 0, 0);
+    border:dotted 2px green;
+}
+.three{
+    background-color: blue;
+    border:solid 2px green;
+    padding:50px;
+    font-weight:800;
+    font-size:20px;
+    margin:30px;
 }
