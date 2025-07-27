@@ -1,19 +1,136 @@
-#hii{
-    color: brown;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.one{
-    background-color: rgb(255, 0, 0);
-    border:dotted 2px green;
+
+.navbar nav{
+  height:100px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(232, 181, 53);
+  border-radius: 10px;
+  position: absolute;
 }
-.two{
-    background-color: rgb(255, 0, 0);
-    border:dotted 2px green;
+.navbar nav img{
+  width: 60px;
+  height:60px;
+  padding-left: 10px;
 }
-.three{
-    background-color: blue;
-    border:solid 2px green;
-    padding:50px;
-    font-weight:800;
-    font-size:20px;
-    margin:30px;
+.navbar nav img p{
+  align-items: center;
+}
+.family{
+  color: #f97425;
+  font-size: 20px;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.navbar nav ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.navbar nav ul a{
+  text-decoration:none;
+}
+.navbar nav ul a:hover{
+  color: #f97425 ;
+}
+.call{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login{
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+  gap: 10px;
+}
+.navbar nav button {
+  background-color: #f97425;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.navbar nav button a{
+  text-decoration: none;
+}
+
+.page1{
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  background-image: url(https://masonparkmedical.com/wp-content/uploads/2024/08/image3.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.section{
+  display: flex;
+}
+.page2{
+  border: 1px solid black;
+  width: 50%;
+  height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  gap: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainbutton{
+  border-radius: 50px;
+  background-color: #f97425;
+  font-size: 100%;
+}
+.mainbutton a{
+  text-decoration: none;
+}
+.page2 h1{
+  color: #f97425;
+}
+
+.page3{
+  width: 50%;
+  height: 800px;
+  border: 1px solid black;
+  background-image: url(https://static.wixstatic.com/media/2e2a49_14909b1645e64ac794ab5bbf11400604~mv2_d_2927_2671_s_4_2.jpg/v1/fill/w_1470,h_1670,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_14909b1645e64ac794ab5bbf11400604~mv2_d_2927_2671_s_4_2.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: 100%;
+}
+.page4{
+  width: 100%;
+  height:1200px;
+  border: 2px solid black;
+  background-color: azure;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.page4 p{
+  display: flex;
+  justify-content: center;
+  /* padding-top: 10%; */
+  font-size: 50px;
+}
+
+.services{
+  border: 1px solid black;
+  width: 15%;
+  height: 300px;
 }
