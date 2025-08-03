@@ -78,14 +78,65 @@
   width: 100%;
   height: 87vh;
   background-image: url(https://static.wixstatic.com/media/7d7c19_fad9bbe9959a416dbf1742408dc9c4c3~mv2.jpg/v1/fill/w_1720,h_700,al_l,q_85,enc_avif,quality_auto/7d7c19_fad9bbe9959a416dbf1742408dc9c4c3~mv2.jpg);
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-size: cover;
-  background-position: 3px;
-
-}
-.section{
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* .bio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   position: absolute;
+} */
+  /* .page1child1{
+    font-size: 50px;
+    color: white;
+  } */
+/* .Appoitmentbutton{
+  background-color: #f97425;
+  padding:10px 25px 10px 25px;
+  border-radius:30px;
+  margin-top: 100px;
+} */
+ /* .Appoitmentbutton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4317df;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+} */
+.bio {
+  text-align: center;
+}
+
+.page1child1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.page1child2 {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.Appoitmentbutton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color:#f97425;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
 .page2{
   /* border: 1px solid black; */
   width: 50%;
@@ -127,8 +178,7 @@
   background-position:center;
   background-size: 100%;
 }
-.page4{
-  /* border: 1px solid black; */
+/* .page4{
   width: 100%;
   height: 1100px;
   display: flex;
@@ -136,10 +186,34 @@
   flex-direction: column;
   align-items: center;
   background-color:white;
-}
+} */
 .page4 p{
   padding-top: 5%;
   font-size: 50px;
+}
+
+.page4 {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgb(242, 240, 240); 
+  z-index: 1;
+}
+
+.page4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(218, 215, 215, 0.191);
+  z-index: 2;
+  pointer-events: none;
 }
 
 #service{
@@ -156,6 +230,7 @@
   /* border: 1px solid black; */
   width: 250px;
   height: 300px;
+  background-color:rgb(255, 255, 255);
 }
 .img1{
   background-image: url(https://static.wixstatic.com/media/84770f_b40688baacb94ae69a406f3e5f723454~mv2.jpg/v1/fill/w_477,h_320,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_b40688baacb94ae69a406f3e5f723454~mv2.jpg);
