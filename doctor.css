@@ -451,8 +451,12 @@
 .page7{
   display: flex;
   justify-content: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 90vh;
 }
 .page7child1{
   width:80%;
+  height: 0;
   border: 0.2px solid rgba(0, 0, 0, 0.333);
 }
